@@ -1,5 +1,5 @@
-export const jobNames = {
+export const queueNames = {
   DOCUMENT_GENERATION: "DOCUMENT_GENERATION",
 } as const;
 
-export type JobName = (typeof jobNames)[keyof typeof jobNames];
+export type QueueName = (typeof queueNames)[keyof typeof queueNames];
